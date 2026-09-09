@@ -2292,6 +2292,36 @@
           height: 130px;
         }
       }
+
+      /* ================= TRANSFORMATIONS IMAGE ================= */
+      .transformations-image-section {
+        padding: 0 0 90px;
+      }
+
+      .transformations-image-wrap {
+        width: 100%;
+        overflow: hidden;
+        border-radius: 24px;
+        border: 1px solid rgba(54, 255, 150, 0.22);
+        background: #050807;
+        box-shadow: 0 25px 70px rgba(0, 0, 0, 0.35);
+      }
+
+      .transformations-image-wrap img {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+      }
+
+      @media (max-width: 768px) {
+        .transformations-image-section {
+          padding-bottom: 60px;
+        }
+        .transformations-image-wrap {
+          border-radius: 16px;
+        }
+      }
     </style>
   </head>
   <body>
@@ -3215,6 +3245,20 @@
               </svg>
             </button>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TRANSFORMATIONS IMAGE ================= -->
+    <section class="section transformations-image-section" id="transformations">
+      <div class="wrap">
+        <div class="transformations-image-wrap reveal">
+          <img
+            src="./fitfuel-transformations.png"
+            alt="FitFuel fitness transformations and before-and-after results"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
       </div>
     </section>
