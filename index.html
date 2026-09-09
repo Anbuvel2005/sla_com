@@ -2293,6 +2293,37 @@
         }
       }
 
+      /* ================= CERTIFICATE BUTTON ================= */
+      .certificate-btn-wrap {
+        margin-top: 18px;
+      }
+
+      .certificate-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 11px 18px;
+        border: 1px solid rgba(54, 255, 150, 0.45);
+        border-radius: 999px;
+        color: #36ff96;
+        background: rgba(54, 255, 150, 0.08);
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 13px;
+        transition: 0.2s ease;
+      }
+
+      .certificate-btn:hover {
+        background: rgba(54, 255, 150, 0.16);
+        border-color: #36ff96;
+        transform: translateY(-1px);
+      }
+
+      .certificate-btn svg {
+        width: 16px;
+        height: 16px;
+      }
+
       /* ================= TRANSFORMATIONS IMAGE ================= */
       .transformations-image-section {
         padding: 0 0 90px;
@@ -2401,10 +2432,10 @@
             ><span class="line-inner">Healthy food.</span></span
           >
           <span class="line-mask"
-            ><span class="line-inner">Delivered at</span></span
+            ><span class="line-inner">Delivered to</span></span
           >
           <span class="line-mask"
-            ><span class="line-inner accent">your doorstep.</span></span
+            ><span class="line-inner accent">your goal.</span></span
           >
         </h1>
         <p class="hero-sub fade-up-seq">
@@ -3279,6 +3310,29 @@
               for weight loss, weight gain, and muscle building — delivered to
               your home, office, or gym.
             </p>
+
+            <div class="certificate-btn-wrap">
+              <a
+                class="certificate-btn"
+                href="https://fssai.gov.in/citizen/about-license-verification"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Verify food safety certificate or licence on the official FSSAI website"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M12 3l7 4v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V7l7-4z"
+                  />
+                  <path d="M9 12l2 2 4-4" />
+                </svg>
+                View Food Safety Certificate
+              </a>
+            </div>
           </div>
           <div class="footer-cols">
             <div class="footer-col">
